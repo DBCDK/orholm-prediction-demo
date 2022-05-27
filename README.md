@@ -7,3 +7,7 @@ You can find stuff in these folders:
 * `model-data` - data files containing measurements of humidity and temperature for three storage locations every hour in five years.
 * `prebuilt-models` - prebuilt model files that can be loaded with `joblib` in case you want to make your own predictions but do not want to build the model.
 * `predict-example-data` - example of the data that is used to feed into the models when predicting future humidity.
+
+### Zenodo DOI
+
+[![DOI](https://zenodo.org/badge/430708003.svg)](https://zenodo.org/badge/latestdoi/430708003)
