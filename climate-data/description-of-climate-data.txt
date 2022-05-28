@@ -1,0 +1,14 @@
+Description of climate data:
+
+oerholm-indoor-climate-data_2009-2021.csv contain hourly readings of indoor climate: temperature in degree Celsius and relative humidity in percent, as measured inside Ørholm Storage Building P.
+
+annisse-indoor-climate-data_2014-2018.csv contain hourly readings of indoor climate: temperature in degree Celsius and relative humidity in percent, as measured inside Annisse Church.
+
+DMI_outdoor-climate-data_2009-2021.csv contain hourly average of outdoor climate: temperature in degree Celsius and relative humidity in percent, as measured by Danish Meteorological Institute at station 618100.  This data was acquired by the DMI web portal (https://www.dmi.dk/frie-data/) 
+
+For all data “.” is used as decimal divider.
+For each hourly recording in all data sets the absolute humidity of air (AH) was calculated from the temperature (T) and relative humidity (RH) by the equation: AH=(1322,9*(RH/100)*EKSP(T/(T+238,3)*17,2694)/(T+273,16))
+The unit of AH is grams of water vapor per cubic meter of air.
+
+ 
+
