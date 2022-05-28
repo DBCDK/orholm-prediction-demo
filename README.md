@@ -1,4 +1,5 @@
-# orholm-prediction-demo
+# `orholm-prediction-demo`
+
 Code snippets demonstrating model building and prediction for the National Museum of Denmark's storage facilities, Ørholm.
 
 You can find stuff in these folders:
@@ -7,7 +8,8 @@ You can find stuff in these folders:
 * `model-data` - data files containing measurements of humidity and temperature for three storage locations every hour in five years.
 * `prebuilt-models` - prebuilt model files that can be loaded with `joblib` in case you want to make your own predictions but do not want to build the model.
 * `predict-example-data` - example of the data that is used to feed into the models when predicting future humidity.
+* `climate-data` - collection of data files that have been considered during the creation of the model.
 
-### Zenodo DOI
+## Zenodo DOI
 
 [![DOI](https://zenodo.org/badge/430708003.svg)](https://zenodo.org/badge/latestdoi/430708003)
